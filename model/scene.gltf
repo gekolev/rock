@@ -3,50 +3,50 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 7106,
+      "count": 63817,
       "max": [
-        3.8902430534362793,
-        4.398749828338623,
-        5.264082908630371
+        0.343968003988266,
+        0.37928399443626404,
+        0.18971900641918182
       ],
       "min": [
-        -4.377699851989746,
-        -3.500349998474121,
-        -0.09630700200796127
+        -0.3409869968891144,
+        -0.3743799924850464,
+        -0.16187800467014313
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 85272,
+      "byteOffset": 765804,
       "componentType": 5126,
-      "count": 7106,
+      "count": 63817,
       "max": [
-        0.9966524839401245,
-        0.9999887943267822,
-        0.9998905658721924
+        0.9999275207519531,
+        0.9999995231628418,
+        0.9999421834945679
       ],
       "min": [
-        -0.9998299479484558,
-        -0.9996992945671082,
-        -0.9887327551841736
+        -0.9998520016670227,
+        -0.9999490976333618,
+        -0.9999998807907104
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 7106,
+      "count": 63817,
       "max": [
-        0.9674389362335205,
-        0.9886744618415833,
-        0.9999805688858032,
+        0.9917091727256775,
+        0.9998384714126587,
+        0.9997905492782593,
         1.0
       ],
       "min": [
-        -0.9903143048286438,
-        -0.9977805018424988,
-        -0.9393581748008728,
+        -0.9998535513877869,
+        -0.999999463558197,
+        -0.9999874234199524,
         1.0
       ],
       "type": "VEC4"
@@ -54,30 +54,30 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 7106,
+      "count": 63817,
       "max": [
-        0.9980400204658508,
-        0.8167700171470642
+        0.8639209866523743,
+        0.9999639987945557
       ],
       "min": [
-        0.0019499999471008778,
-        0.0019499999471008778
+        2.2000000171829015e-05,
+        2.700000004551839e-05
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 41184,
+      "count": 375000,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "Siesta (https://sketchfab.com/siesta)",
+      "author": "Kless Gyzen (https://sketchfab.com/klessgyzen)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/rock-b66d5b63deb447299ca3effa904bc789",
-      "title": "Rock"
+      "source": "https://sketchfab.com/3d-models/rock-17-free-rock-pack-vol3-112533f65f3d4848ae14d18ed59f0db2",
+      "title": "Rock 17 (Free) Rock Pack Vol.3"
     },
     "generator": "Sketchfab-12.68.0",
     "version": "2.0"
@@ -85,30 +85,30 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 164736,
+      "byteLength": 1500000,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 56848,
-      "byteOffset": 164736,
+      "byteLength": 510536,
+      "byteOffset": 1500000,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 170544,
-      "byteOffset": 221584,
+      "byteLength": 1531608,
+      "byteOffset": 2010536,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 113696,
-      "byteOffset": 392128,
+      "byteLength": 1021072,
+      "byteOffset": 3542144,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -116,29 +116,27 @@
   ],
   "buffers": [
     {
-      "byteLength": 505824,
+      "byteLength": 4563216,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/Material_baseColor.png"
+      "uri": "textures/Rock_17_baseColor.jpeg"
     },
     {
-      "uri": "textures/Material_metallicRoughness.png"
+      "uri": "textures/Rock_17_metallicRoughness.png"
     },
     {
-      "uri": "textures/Material_normal.png"
+      "uri": "textures/Rock_17_normal.png"
     }
   ],
   "materials": [
     {
-      "name": "Material",
+      "doubleSided": true,
+      "name": "Rock_17",
       "normalTexture": {
         "index": 2
-      },
-      "occlusionTexture": {
-        "index": 1
       },
       "pbrMetallicRoughness": {
         "baseColorTexture": {
@@ -147,8 +145,7 @@
         "metallicFactor": 0.0,
         "metallicRoughnessTexture": {
           "index": 1
-        },
-        "roughnessFactor": 0.7090320122
+        }
       }
     }
   ],
@@ -199,7 +196,7 @@
       "children": [
         2
       ],
-      "name": "untitled.obj.cleaner.materialmerger.gles"
+      "name": "rock_17.obj.cleaner.materialmerger.gles"
     },
     {
       "mesh": 0,
